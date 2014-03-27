@@ -9,6 +9,7 @@ what it's using now, using PLY's lexer interface) sometime in the future.
 
 The syntax is simple, there's basically three tags:
 
+```
 <!--execute c code-->
 <# 
 c code
@@ -20,6 +21,7 @@ c code
 
 <!--include another file-->
 <#include "filename.ccs" #>
+```
 
 =Requirements=
 Python >= 3.1
