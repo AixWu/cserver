@@ -34,3 +34,7 @@ shell, then do this:
 The source files defined in cs_sources.py will be built
 in build/, then concatenated into the main C file, 
 build/pages.c
+
+Note that there is some (annotated) ES6 code in es6code/.
+You don't shouldn't need to compile it to use the cserver
+compiler itself; it's just browser run-time JS code.
